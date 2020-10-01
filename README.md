@@ -15,12 +15,12 @@ Project Organization
   * Add payment form
   * Fix link to Wired article
 * **Milestones** for "releases" or overall steps, i.e.:
-  * Single-page site
+  * Only single-page site
   * User Documentation
   * Journal
 * **Reviews** Do all work in branches, then submit pull requests for review when ready
   * No dummy content in master, ever.
-  * Small diff is best diff.
+  * Small diff is the best diff.
   * The reviewer is the gatekeeper. Be kind of a dick.
 
 
@@ -38,7 +38,7 @@ Templating System
 =================
 
 * PHP-based
-* Pages go in root as .php files
+* Pages goes on root as .php files
 * `require_once '_backend/preload.php';`, set any variables, then `include $template['header'];` (see [code-of-conduct](https://github.com/elementary/website/blob/master/code-of-conduct.php) for an example) at top of page.
 * `include $template['footer'];` at bottom of page.
 * Page variables:
